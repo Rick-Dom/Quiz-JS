@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+body {
+    background-color: #961f23;
+    padding: 5%;
+}
+
+.containerQuiz {
+    font-size: 2.2vh;
+    font-family: sans-serif;
+    color: #0F0F0F;
+    background-color: #E4E4E6;
+    padding: 2%;
+    border: solid 2px #0F0F0F;
+    border-radius: 4px;
+    width: 1100px;
+    max-width: 1100px;
+    min-width: 1100px;
+    height: 450px;
+    overflow: scroll;
+}
+
+.question {
+    font-weight: 400;
+}
+
+.answers {
+    margin-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+#submit {
+    width: 49%;
+    height: auto;
+    background-color: #0F0F0F;
+    border: solid 2px #E4E4E6;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#submit:hover {
+    background-color: #961f23;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+#inicio {
+    width: 49%;
+    height: auto;
+    background-color: #0F0F0F;
+    border: solid 2px #E4E4E6;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#inicio:hover {
+    background-color: #961f23;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+#containerNintendo {
+    display: inline-block;
+    width: 700px;
+    height: auto;
+    background-color: #E4E4E6;
+    border: solid 2px #ECECED;
+    text-align: center;
+    align-content: center;
+    border-radius: 12px;
+    padding: 4%;
+    margin-top: 10%;
+}
+
+.nintendoBtn {
+    width: 42%;
+    height: auto;
+    background-color: #0F0F0F;
+    border: solid 2px #E4E4E6;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.nintendoBtn:hover {
+    background-color: #961f23;
+    transition: all ease-in-out 0.2s;
+    padding: 17px;
+    cursor: pointer;
+}
+
+.start {
+    width: 60%;
+    height: auto;
+    background-color: #0F0F0F;
+    border: solid 2px #E4E4E6;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.start:hover {
+    background-color: #5F5F5F;
+    transition: all ease-in-out 0.4s;
+    cursor: pointer;
+}
+
+#center {
+    text-align: center;
+    align-content: center;
+}
+
+#left {
+    display: inline-block;
+    position: absolute;
+    margin-left: -5%;
+    bottom: 0;
+    width: auto;
+    margin-top: 10px;
+}
+
+#right {
+    display: inline-block;
+    text-align: end;
+    position: absolute;
+    margin-left: 52%;
+    margin-bottom: 0px;
+    width: auto;
+    margin-top: 10px;
+}
+
+#consoles {
+    text-align: center;
+    align-content: center;
+    margin: 0%;
+    position: absolute;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#bodyRegras {
+    background-color: #961f23;
+    padding: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#mainRegras {
+    margin: 5%;
+    text-align: justify;
+    align-self: center;
+}
+
+#containerRegras {
+    width: 85%;
+    height: 65%;
+    background-color: transparent;
+    padding: 2%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+#regras {
+    font-size: 2.4vh;
+    color: #ECECED;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding: 4%;
+    line-height: 155%;
+    text-align: center;
+}
